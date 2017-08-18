@@ -1,0 +1,27 @@
+{
+  "name": "calendaria",
+  "version": "0.1.0",
+  "description": "Observervable calendar library for rendering months",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Ryan L. Bell <ryan.l.bell@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kofno/calendaria.git"
+  },
+  "devDependencies": {
+    "ts-node": "^3.3.0",
+    "tslint": "^5.6.0",
+    "typedoc": "^0.8.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "mobx": "^3.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "docs": "typedoc --out docs --theme minimal && touch docs/.nojekyll"
+  }
+}
