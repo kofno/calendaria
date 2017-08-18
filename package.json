@@ -1,6 +1,6 @@
 {
   "name": "calendaria",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Observervable calendar library for rendering months",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
