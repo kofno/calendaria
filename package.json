@@ -1,6 +1,6 @@
 {
   "name": "calendaria",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Observervable calendar library for rendering months",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,8 @@
     "ts-node": "^3.3.0",
     "tslint": "^5.6.0",
     "typedoc": "^0.8.0",
-    "typescript": "^2.4.2"
+    "typescript": "^2.4.2",
+    "semantic-release": "^8.0.3"
   },
   "dependencies": {
     "mobx": "^3.2.2"
@@ -22,6 +23,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "docs": "typedoc --out docs --theme minimal && touch docs/.nojekyll"
+    "docs": "typedoc --out docs --theme minimal && touch docs/.nojekyll",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   }
 }
